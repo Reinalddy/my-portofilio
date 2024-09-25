@@ -2,16 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 import ossImage from "../../Assets/Images/oss_dashboard.png";
 import bullcomImage from "../../Assets/Images/bullcom_adminsite.png";
 import bfxImage from "../../Assets/Images/bfx_adminsite.png";
 import myForum from "../../Assets/Images/anime_forum.png";
+import waApi from "../../Assets/Images/wa_gateway.png";
 
 function Projects() {
   return (
@@ -65,6 +60,17 @@ function Projects() {
               title="Anime Forum"
               description="A forum where users can post, comment, like, and reply to posts. Build with Laravel 10"
               ghLink="https://github.com/Reinalddy/my-forum"
+            // demoLink="https://plant49-ai.herokuapp.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={waApi}
+              isBlog={false}
+              title="Whatsapp Gateway"
+              description="A whatsapp gateway that can be used to send messages to users or used by third parties by api. Build with laravel and nodejs"
+            // ghLink="https://github.com/Reinalddy/my-forum"
             // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
