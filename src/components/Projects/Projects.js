@@ -8,6 +8,8 @@ import bfxImage from "../../Assets/Images/bfx_adminsite.png";
 import myForum from "../../Assets/Images/anime_forum.png";
 import waApi from "../../Assets/Images/wa_gateway.png";
 import posImage from "../../Assets/Images/pos.png";
+import callinghelper from '../../Assets/Images/callinghelper.png';
+import oprtech from '../../Assets/Images/oprtech.png';
 
 function Projects() {
   return (
@@ -37,7 +39,7 @@ function Projects() {
               imgPath={bullcomImage}
               isBlog={false}
               title="Customer Relationship Management (CRM)"
-              description="Developed a comprehensive CRM system to manage customer data and support ticketing. Responsible for both backend and frontend development, integrating dynamic interfaces with Laravel-based APIs. Implemented secure authentication, role-based access control, and automated email notifications. Optimized file storage with AWS S3, boosted performance with Redis caching, and ensured high availability through Hestia CP and Cloudflare. This project significantly improved customer engagement, streamlined internal workflows, and strengthened data security."
+              description="Developed a full-stack CRM system handling customer data and support ticketing. Built both backend and frontend, integrated Laravel-based APIs, and implemented authentication, role-based access control, and automated email notifications. Improved system performance using Redis caching, AWS S3 for file storage, and Cloudflare for reliability and security. The project enhanced customer engagement, streamlined internal workflows, and improved overall data protection."
             // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
             // demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -48,7 +50,7 @@ function Projects() {
               imgPath={bfxImage}
               isBlog={false}
               title="Customer Relationship Management (CRM)"
-              description="Developed a comprehensive CRM system to manage customer data and support ticketing. Responsible for both backend and frontend development, integrating dynamic interfaces with Laravel-based APIs. Implemented secure authentication, role-based access control, and automated email notifications. Optimized file storage with AWS S3, boosted performance with Redis caching, and ensured high availability through Hestia CP and Cloudflare. This project significantly improved customer engagement, streamlined internal workflows, and strengthened data security."
+              description="Developed a full-stack CRM system handling customer data and support ticketing. Built both backend and frontend, integrated Laravel-based APIs, and implemented authentication, role-based access control, and automated email notifications. Improved system performance using Redis caching, AWS S3 for file storage, and Cloudflare for reliability and security. The project enhanced customer engagement, streamlined internal workflows, and improved overall data protection."
             // ghLink="https://github.com/soumyajit4419/Editor.io"
             // demoLink="https://editor.soumya-jit.tech/"
             />
@@ -81,7 +83,29 @@ function Projects() {
               imgPath={posImage}
               isBlog={false}
               title="POS (Point of Sale)"
-              description="Designed and developed a Point of Sale (POS) system to streamline sales transactions, inventory management, and customer data tracking. Key features included real-time sales processing, barcode scanning, stock management, receipt generation, and sales reporting. Integrated with payment gateways and third-party APIs to improve operational efficiency and deliver a seamless checkout experience."
+              description="Developed a POS system with real-time transactions, barcode scanning, stock management, receipt generation, and reporting. Integrated payment gateways and external APIs to streamline operations and improve checkout experience."
+            // ghLink="https://github.com/Reinalddy/my-forum"
+            // demoLink="https://plant49-ai.herokuapp.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={callinghelper}
+              isBlog={false}
+              title="CallingHelper"
+              description="Built a real-time chat platform with user–admin communication, including role-based access control (RBAC), user level management, and tier-based permission logic. The system supports scalable message flow and secure access to features based on defined hierarchy."
+            // ghLink="https://github.com/Reinalddy/my-forum"
+            // demoLink="https://plant49-ai.herokuapp.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={oprtech}
+              isBlog={false}
+              title="OPRTech"
+              description="Built a purchase request management system with user request submission, data tracking, and tiered approval flows (multi-level authorization). The system enables structured procurement oversight and supports efficient decision-making."
             // ghLink="https://github.com/Reinalddy/my-forum"
             // demoLink="https://plant49-ai.herokuapp.com/"
             />
